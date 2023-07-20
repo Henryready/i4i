@@ -1,0 +1,157 @@
+html {
+    background-image: url("ready1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+  body{
+height:100vh;
+width:100%;
+overflow:hidden;
+margin:0;
+background-image: url("ready1.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed; 
+background-size: 100% 100%;
+}
+
+img{
+max-width:100%;
+}
+
+.actual1{
+height:50%;
+width:50%;
+position:fixed;
+top:0;
+left:0;
+mix-blend-mode:difference;
+animation: scale 1s infinite alternate;
+transition: all .5s;
+}
+
+@keyframes move-actual1 {
+0% {
+  top:0;
+  right:-100px;
+}
+100% {
+  top:100px;
+  right:100px;
+}
+}
+
+
+
+.actual2{
+height:50%;
+width:50%;
+position:fixed;
+top:0;
+left:0;
+mix-blend-mode:difference;
+animation: scale 2s infinite alternate;
+transition: all 1s;
+}
+
+@keyframes move-actual2 {
+0% {
+  top:0;
+  right:-100px;
+}
+100% {
+  top:100px;
+  right:100px;
+}
+}
+
+.actual4{
+height:50%;
+width:50%;
+position:fixed;
+top:0;
+left:0;
+mix-blend-mode:difference;
+animation: scale 2s infinite alternate;
+transition: all 3s;
+}
+
+@keyframes move-actual4 {
+0% {
+  top:0;
+  right:-100px;
+}
+100% {
+  top:100px;
+  right:100px;
+}
+}
+
+
+.actual5{
+height:50%;
+width:50%;
+position:fixed;
+top:0;
+left:0;
+mix-blend-mode:color-dodge;
+animation: scale 2s infinite alternate;
+transition: all 3s;
+}
+
+@keyframes move-actual5 {
+0% {
+  top:0;
+  right:-100px;
+}
+100% {
+  top:100px;
+  right:100px;
+}
+}
+
+.actual7{
+height:50%;
+width:50%;
+position:fixed;
+top:0;
+left:0;
+mix-blend-mode:difference;
+animation: scale 1s infinite alternate;
+transition: all .3s;
+}
+
+@keyframes move-actual7 {
+0% {
+  top:0;
+  right:-100px;
+}
+100% {
+  top:100px;
+  right:100px;
+}
+}
+
+
+.actual10{
+    height:50%;
+    width:50%;
+    position:fixed;
+    top:0;
+    left:0;
+    mix-blend-mode:difference;
+    animation: scale 2s infinite alternate;
+    transition: all 2s;
+    }
+    
+    @keyframes move-actual10 {
+    0% {
+      top:0;
+      right:-100px;
+    }
+    100% {
+      top:0px;
+      right:100px;
+    }
+    }

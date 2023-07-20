@@ -1,0 +1,154 @@
+html {
+    background-image: url("sectiona.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+  body{
+height:100vh;
+width:100%;
+overflow:hidden;
+margin:0;
+background-image: url("sectiona.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed; 
+background-size: 100% 100%;
+}
+img{
+max-width:100%;
+}
+
+.overlay{
+height:100%;
+width:100%;
+position:fixed;
+top:0;
+left:0;
+mix-blend-mode:color-dodge;
+    opacity:0;
+    animation: fade-in 7s 3s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+
+.bunfly{
+height:100%;
+width:100%;
+position:fixed;
+top:0;
+left:0;
+mix-blend-mode:screen;
+    opacity:0;
+    animation: fade-in 3s 7s forwards;
+
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+.eye {
+    background:black;
+    height:50vh;
+    width:100%;
+    position:absolute;
+  }
+  
+  .top-fast {
+    top:-50vh;
+    left:0;
+    animation: top-fast 10s 2s infinite;
+  }
+  
+  .bottom-fast {
+    bottom:-50vh;
+    left:0;
+    animation: bottom-fast 10s 2s infinite;
+  }
+  
+  .top-slow {
+    top:-50vh;
+    left:0;
+    animation: top-slow 20s infinite;
+  }
+  
+  .bottom-slow {
+    bottom:-50vh;
+    left:0;
+    animation: bottom-slow 20s infinite;
+  }
+  
+  @keyframes top-fast {
+    0% {
+      transform:translateY(0);
+    }
+    47% {
+      transform:translateY(0);
+    }
+    50% {
+      transform:translateY(100%);
+    }
+    53% {
+      transform:translateY(0);
+    }
+  }
+  
+  
+  @keyframes bottom-fast {
+    0% {
+      transform:translateY(0);
+    }
+    47% {
+      transform:translateY(0);
+    }
+    50% {
+      transform:translateY(-100%);
+    }
+    53% {
+      transform:translateY(0);
+    }
+  }
+  
+  @keyframes top-slow {
+    0% {
+      transform:translateY(0);
+    }
+    10% {
+      transform:translateY(0);
+    }
+    15% {
+      transform:translateY(100%);
+    }
+    20% {
+      transform:translateY(0);
+    }
+  }
+  
+  
+  @keyframes bottom-slow {
+    0% {
+      transform:translateY(0);
+    }
+    10% {
+      transform:translateY(0);
+    }
+    15% {
+      transform:translateY(-100%);
+    }
+    20% {
+      transform:translateY(0);
+    }
+  }

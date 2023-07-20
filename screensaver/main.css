@@ -1,0 +1,15 @@
+body {
+height:100vw;
+margin:0;
+    /* filter:blur(50px); */
+}
+ .bg{
+
+    background-image: url(scheminglizard.gif);
+        background-size:100% 100%;
+        background-attachment: fixed;
+        background-position: center;
+        height:100%;
+        width:100%;
+        filter:blur(10px);
+    }

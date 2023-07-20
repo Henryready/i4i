@@ -1,0 +1,126 @@
+html {
+    background-image: url("bluenomad.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+  body{
+height:100vh;
+width:100%;
+overflow:hidden;
+margin:0;
+background-image: url("bluenomad.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed; 
+background-size: 100% 100%;
+}
+img{
+max-width:100%;
+}
+.half1 {
+height:100%;
+width:100%;
+position:fixed;
+top:0;
+left:0;
+mix-blend-mode:color-dodge;
+    opacity:0;
+    animation: fade-in 7s 3s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  .yeaohk {
+    width:500px;
+    position:fixed;
+    z-index:100;
+    right:-100px;
+    top:0;
+    mix-blend-mode:difference;
+    animation: scale 2s infinite alternate;
+    transition: all 3s;
+  }
+  
+  @keyframes move-yeaohk {
+    0% {
+      top:0;
+      right:-100px;
+    }
+    100% {
+      top:100px;
+      right:200px;
+    }
+  }
+ 
+  @keyframes scale {
+    0% {
+        transform:scale(1);
+    }
+    100% {
+        transform:scale(.5);
+    }
+    }
+
+  .bunny1 {
+    height:100%;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    mix-blend-mode:color-dodge;
+        opacity:0;
+        animation: fade-in 4s 7s forwards;
+  }
+
+  .bunny2 {
+    height:99%;
+    width:30%;
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:3;
+    mix-blend-mode:color-burn;
+        opacity:0;
+        animation: fade-in 4s 11s forwards;
+  }
+.bunny2 img{
+    height:100%;
+    width:100%;
+}
+.butterfly1 {
+    height:30%;
+    width:19%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 2;
+    mix-blend-mode:difference;
+        opacity:0;
+        animation: fade-in 7s 7s forwards;
+}
+
+.icon1 {
+    height:100%;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    mix-blend-mode:difference;
+        opacity:0;
+        animation: fade-in 5s 9s forwards;
+}
+
+.okokok{
+
+  mix-blend-mode:difference;
+  opacity:0;
+  animation: fade-in 4s 16s forwards;
+}

@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding:0;
+    width:100%;
+    height:4000px;
+    background: linear-gradient(white, rgb(0, 187, 255));
+}
+a{display: block;}
+    .eye-1 {
+        color:black;
+        background-color: black;
+        width: 50px;
+        height:50px;
+        border:30px solid black;
+        border-radius: 100px;
+        position: relative;
+        left: 280px;
+        top: 120px;
+    }
+
+    .eye-2 {
+        color:black;
+        background-color: black;
+        width: 50px;
+        height:50px;
+        border:30px solid black;
+        border-radius: 100px;
+        position: relative;
+        left: 800px;
+        top: 120px;
+    }
+
+      
+      .arrow-right {
+        width: 0; 
+        height: 0; 
+        border-top: 20px solid transparent;
+        border-bottom: 300px solid transparent;
+        
+        border-left: 60px solid rgb(255, 98, 0);
+        position: relative;
+        left: 600px;
+        top: 450px;
+      }
+
+      .arm-1{
+        border-bottom: 20px solid rgb(69, 33, 0);
+        width: 40%;
+        transform: rotate(70deg);
+        transform-origin: left;
+        position: relative;
+        left: 200px;
+        top: 300px;
+
+    }
+    .finger-21{
+        border-bottom: 20px solid rgb(69, 33, 0);
+        width: 10%;
+        transform: rotate(290deg);
+        transform-origin: left;
+        position: relative;
+        left: 210px;
+        top: 0px;}
+     .finger-22{
+            border-bottom: 20px solid rgb(69, 33, 0);
+            width: 10%;
+            transform: rotate(240deg);
+            transform-origin: left;
+            position: relative;
+            left: 210px;
+            top: -12px;}
+
+    .finger-11{
+        border-bottom: 20px solid rgb(69, 33, 0);
+        width: 10%;
+        transform: rotate(30deg);
+        transform-origin: left;
+        position: relative;
+        left: 1152px;
+        top: 1182px;}
+     .finger-12{
+            border-bottom: 20px solid rgb(69, 33, 0);
+            width: 10%;
+            transform: rotate(90deg);
+            transform-origin: left;
+            position: relative;
+            left: 1158px;
+            top: 1170px;}
+    .arm-2{
+        border-bottom: 20px solid rgb(69, 33, 0);
+        width: 40%;
+        transform: rotate(60deg);
+        transform-origin: left;
+        position: relative;
+        left: 900px;
+        top: 1000px;
+    }
+    .button-1 {
+        color:rgb(31, 31, 31);
+        background-color: rgb(50, 50, 50);
+        width: 50px;
+        height:50px;
+        border:15px solid rgb(73, 73, 73);
+        border-radius: 100px;
+        position: relative;
+        left: 600px;
+        top: 800px;
+    }
+    .button-2 {
+        color:rgb(31, 31, 31);
+        background-color: rgb(50, 50, 50);
+        width: 50px;
+        height:50px;
+        border:15px solid rgb(73, 73, 73);
+        border-radius: 100px;
+        position: relative;
+        left: 700px;
+        top: 1300px;
+    }
+    .button-3 {
+        color:rgb(31, 31, 31);
+        background-color: rgb(50, 50, 50);
+        width: 50px;
+        height:50px;
+        border:15px solid rgb(73, 73, 73);
+        border-radius: 100px;
+        position: relative;
+        left: 400px;
+        top: 1800px;
+    }
+
