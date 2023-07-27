@@ -1,0 +1,48 @@
+body {
+ background-image: url("8.jpg");
+  }
+  h1 {font-family:Arial;}
+h1{color: rgb(0, 0, 0);}
+h1 { border: 20px solid rgb(255, 142, 246);
+    border-radius: 12px;
+    padding: 5px;
+  width:152px;}
+  h2{border: 20px dotted rgb(255, 142, 246);
+    border-radius: 12px;
+    padding: 5px;
+  width:290px;}
+  h2 {font-family:Arial;}
+
+
+.container {
+    height: 800px;
+    width: 800px;
+    display: flex;
+}
+
+#toolbar {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 70px;
+}
+
+#toolbar * {
+    margin-bottom: 6px;
+}
+
+#toolbar label {
+    font-size: 12px;
+}
+
+#toolbar input {
+    width: 100%;
+}
+
+#toolbar button {
+    background-color: #1565c0;
+    border: none;
+    border-radius: 4px;
+    color:white;
+    padding: 2px;
+}
